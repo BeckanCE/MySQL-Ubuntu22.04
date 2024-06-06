@@ -26,6 +26,7 @@ Una vez terminado la instalación de MySql procederemos a verificar si está fun
 sudo systemctl status mysql
 ```
 Si nos sale un mensaje igual que el siguiente, la Instalación fue correcta. Cerramos el mensaje presionando las teclas "Ctrl + C" a la vez.
+
 ![](images/status.png)
 
 ## Crear nuevo usuario en MySQL 
@@ -91,13 +92,14 @@ mysql -u usuario -p
 Para que nos deje ingresar tendremos que poner la contraseña del respectivo usuario. Una vez que ingresemos la contreña estaremos dentro de la consola de MySQL
 
 ## Configurar conexiones remotas en MySQL
-+ Requiere usuario 'root'
+* Requiere usuario 'root'
 
 Estando en la terminal, colocamos el siguiente comando.
 ```bash
 nano /etc/mysql/mysql.conf.d/mysqld.cnf
 ```
 Nos saldrá lo mismo que la siguiente imagen
+
 ![](images/confignot.png)
 
 Nos desplazamos con las flechas de nuestro teclado hasta la linea siguiente.
