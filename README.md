@@ -22,26 +22,26 @@ Una vez terminado la instalación de MySql procederemos a verificar si está fun
 ```bash
 sudo systemctl status mysql
 ```
-Nos saldrá para lo mismo que esta imagen
+Si nos sale un mensaje igual que el siguiente, la Instalación fue correcta. Cerramos el mensaje presionando las teclas "Ctrl + C" a la vez.
 
 ![](images/status.png)
 
 
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+## Configurar MySQL 
+Entramos a MySQL escribiendo el siguiente comando en la terminal.
+```bash
+mysql
 ```
+Crearemos un nuevo usuario en MySQL con todos los permisos para evitar usar el usuario root. Para ello ejecutamos los siguientes comandos:
+```bash
+create user 'tuusuario'@'%' identified by 'tucontraseña';
+```
+Reemplaza por tu usuario y tu contraseña. No elimines los apostrofes ( ' ).
 
+Daremos todos los permisos con los siguientes comandos:
+```bash
+grant all privileges on *.* to 'tuusuario'@'%' with grant option;
+```
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
