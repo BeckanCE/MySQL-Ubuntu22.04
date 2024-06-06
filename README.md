@@ -107,7 +107,9 @@ Nos desplazamos con las flechas de nuestro teclado hasta la linea siguiente.
 * bind-address       = 127.0.0.1 
 
 Remplazamos '127.0.0.1' por '0.0.00'. Tal como la siguiente imagen.
+
 ![](images/configyes.png)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
