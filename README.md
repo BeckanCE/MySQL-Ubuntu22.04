@@ -1,4 +1,4 @@
-# MySQL Ubuntu22.04
+# MySql Ubuntu 22.04
 Guía para instalar y configurar MySql en un servidor privado virtual que ejecuta la distribución Ubuntu. Requiere usuario 'root'.
 
 ## Instalación
@@ -18,11 +18,12 @@ sudo apt install mysql-server
 ```
 Durante la instalación tendremos que confirmar algunos cambios. Para ello escribiremos 'Y' en la terminal cuando nos pida.
 
-Una vez terminado la instalación de MySQL procederemos a verificar si está funcionando correctamente con el siguiente comando:
+Una vez terminado la instalación de MySql procederemos a verificar si está funcionando correctamente con el siguiente comando:
 ```bash
 sudo systemctl status mysql
 ```
-![Nos saldra lo mismo que esta imagen](images/status.png)
+Nos saldrá para lo mismo que esta imagen
+![](images/status.png)
 
 
 ## Usage
