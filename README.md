@@ -23,6 +23,7 @@ Una vez terminado la instalación de MySql procederemos a verificar si está fun
 sudo systemctl status mysql
 ```
 Nos saldrá para lo mismo que esta imagen
+
 ![](images/status.png)
 
 
