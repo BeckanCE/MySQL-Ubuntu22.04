@@ -19,7 +19,7 @@ Después de actualizar los paquetes procederemos a instalar MySQL poniendo el si
 ```bash
 sudo apt install mysql-server
 ```
-Durante la instalación tendremos que confirmar algunos cambios. Para ello escribiremos 'Y' en la terminal cuando nos pida.
+Durante la instalación, se solicitara que confirmes la instalación. Presiona 'y' y luego Enter para confirmar la instalación.
 
 Una vez terminado la instalación de MySql procederemos a verificar si está funcionando correctamente con el siguiente comando:
 ```bash
